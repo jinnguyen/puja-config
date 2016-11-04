@@ -1,0 +1,21 @@
+{
+  "name": "jinnguyen/puja-config",
+  "description": "Allow load multi configured files, access the configured value as an object",
+  "type": "library",
+  "license": "Apache License 2.0",
+  "keywords": ["puja", "config", "configure", "configuration"],
+  "authors": [
+    {
+      "name": "Jin Nguyen",
+      "email": "w2ajax@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+          "Puja\\Configure\\": "src/"
+      }
+  }
+}
